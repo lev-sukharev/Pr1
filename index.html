@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My title</title>
+    <title>ELDEN RING</title>
+    <style>
+        /* Стилі для того, щоб розмістити все точно по центру екрану */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0c10; /* Темний атмосферний фон */
+            color: #c5a059; /* Золотавий колір тексту у стилі гри */
+            font-family: 'Georgia', serif; /* Елегантний шриф за замовчуванням */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Розтягує на всю висоту екрану */
+            text-align: center;
+        }
+
+        /* Стилі для заголовка */
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 6px; /* Відступи між літерами */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(197, 160, 89, 0.5); /* Ефект легкого світіння */
+        }
+
+        /* Стилі для малюнка кільця */
+        .elden-ring-img {
+            max-width: 300px; /* Максимальна ширина картинки */
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6)); /* Золоте світіння навколо кільця */
+        }
+    </style>
 </head>
 <body>
-    <div>
-        Hello from Github.io
-    </div>
+
+    <h1>ELDEN RING</h1>
+    
+    <!-- Переконайтеся, що малюнок кільця лежить у папці images під назвою ring.png -->
+    <img src="images/ring.webp" alt="Elden Ring" class="elden-ring-img">
+
 </body>
 </html>
